@@ -1,0 +1,117 @@
+.body{
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 60vw;
+    height: 100vh;
+    background-color: #4B6F75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+}
+
+.carta{
+    margin: 0;
+    padding: 0;
+}
+
+.papo{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+.descricao{
+    flex-direction: column;
+    text-align: center;
+}
+
+.right-login{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #aec7cc;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px #627579;
+}
+
+.titulo-card{
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #82999e;
+    color: #4B6F75;
+    font-size: 12pt;
+    box-shadow: 0px 2px 10px #2d4346;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.textfield > input::placeholder{
+    color: #aec7cc;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #2d4346;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px #627579;
+}
