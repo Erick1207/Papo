@@ -1,0 +1,130 @@
+.body {
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.tudo {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato {
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    background-color: #aec7cc;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.conversa {
+    width: 60vw;
+    height: 100vh;
+    background-color: #4B6F75;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.grupo1, .grupo2, .grupo3, .grupo4, .grupo5 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.grupo1 h1, .grupo2 h1, .grupo3 h1, .grupo4 h1, .grupo5 h1 {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #2d4346;
+}
+
+.circular-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.titulo-chat{
+    color: white;
+    font-weight: 800;
+    padding: 10px 0px 10px 0px;
+    color: #2d4346;
+}
+
+.grupo1:hover, .grupo2:hover, .grupo3:hover, .grupo4:hover, .grupo5:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.digitar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+}
+
+#mensagem {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#mensagem::placeholder {
+    color: #888;
+}
+
+#enviar {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #25D366;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#enviar:hover {
+    background-color: #128C7E;
+}
+
+.conversa-content {
+    display: none;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.conversa-content h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.conversa-content.active {
+    display: flex; 
+}
