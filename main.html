@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="functions.js">
+    <script src="functions.js" defer></script>
     <title>Papo</title>
 </head>
+
 <body>
-    <div class = "main-login">
-        <div class = "left-login">
-            <div class = "descricao">
-                <img src="images/logo.png" alt="logo" width=alt height="200"> 
-                <h1 class = "titulo">Faça login<br>E se una aos nossos chats online</h1>
+    <div class="main-login">
+        <div class="left-login">
+            <div class="descricao">
+                <img src="images/logo.png" alt="logo" height="200">
+
+                <h1 class="titulo">
+                    Faça login<br>
+                    E se una aos nossos chats online
+                </h1>
             </div>
         </div>
-        <div class = "right-login">
-            <div class = "card-login">
-                <h1 class = "titulo-card">LOGIN</h1>
-                <div class = "textfield">
+
+        <div class="right-login">
+            <div class="card-login">
+                <h1 class="titulo-card">LOGIN</h1>
+                <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuários">
+                    <input type="text" id="usuario" name="usuario" placeholder="Usuário">
                 </div>
-                <div class = "textfield">
+                <div class="textfield">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" id="senha" name="senha" placeholder="Senha">
                 </div>
-                <button class = "btn-login">Login</button>
+                <button class="btn-login" id="btnLogin">
+                    <p id="mensagem"></p>
+                    Login
+                </button>
             </div>
         </div>
     </div>

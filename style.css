@@ -115,3 +115,9 @@
     cursor: pointer;
     box-shadow: 0px 3px 8px #627579;
 }
+
+#mensagem{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
