@@ -99,7 +99,7 @@
     padding: 12px 25px;
     border: none;
     border-radius: 25px;
-    background-color: #25D366;
+    background-color: #82999e;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -127,4 +127,18 @@
 
 .conversa-content.active {
     display: flex; 
+}
+
+.mensagem {
+    max-width: 70%;
+    margin: 5px;
+    padding: 6px 8px;
+    border-radius: 18px;
+    line-height: 1.4;
+    font-size: 15px;
+    word-wrap: break-word;
+    background-color: #aec7cc; 
+    color: #333; 
+    align-self: flex-start; 
+    border-bottom-left-radius: 4px;
 }
