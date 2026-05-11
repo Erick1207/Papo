@@ -160,3 +160,9 @@
     height: 50px;
     object-fit: cover;
 }
+
+.mensagem.usuario{
+    background-color: #DCF8C6;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+}
